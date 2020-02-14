@@ -290,7 +290,4 @@ Public Class Planet
         End Get
     End Property
 
-    Sub Test()
-        MsgBox("test")
-    End Sub
 End Class
