@@ -8,7 +8,7 @@ Physical formulars simulate the planets around the sun, you can speed up or slow
 
 ![Image of Planet-Sim](https://github.com/DeepHyperspace/Planet-Sim-VB/blob/master/Add_Planets.png)
 
-# Planet-Sim-VB
+# Additional notes
 
 All classes are located in the file SimObjects.vb
 
