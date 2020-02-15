@@ -22,23 +22,21 @@ Partial Class MainForm
     'Das Bearbeiten mit dem Code-Editor ist nicht möglich.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim Planet1 As PlanetSim.Planet = New PlanetSim.Planet()
-        Dim Planet2 As PlanetSim.Planet = New PlanetSim.Planet()
-        Dim Planet3 As PlanetSim.Planet = New PlanetSim.Planet()
-        Dim Planet4 As PlanetSim.Planet = New PlanetSim.Planet()
-        Dim Planet5 As PlanetSim.Planet = New PlanetSim.Planet()
-        Dim Planet6 As PlanetSim.Planet = New PlanetSim.Planet()
-        Dim Planet7 As PlanetSim.Planet = New PlanetSim.Planet()
+        Dim Planet8 As PlanetSim.Planet = New PlanetSim.Planet()
+        Dim Planet9 As PlanetSim.Planet = New PlanetSim.Planet()
+        Dim Planet10 As PlanetSim.Planet = New PlanetSim.Planet()
+        Dim Planet11 As PlanetSim.Planet = New PlanetSim.Planet()
+        Dim Planet12 As PlanetSim.Planet = New PlanetSim.Planet()
+        Dim Planet13 As PlanetSim.Planet = New PlanetSim.Planet()
+        Dim Planet14 As PlanetSim.Planet = New PlanetSim.Planet()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.bt_start = New System.Windows.Forms.Button()
         Me.SolarSystem = New PlanetSim.CCSystem()
-        Me.Button5 = New System.Windows.Forms.Button()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -52,7 +50,7 @@ Partial Class MainForm
         Me.TableLayoutPanel1.Controls.Add(Me.SolarSystem, 0, 1)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 62.0!))
@@ -62,16 +60,14 @@ Partial Class MainForm
         '
         'Panel1
         '
-        Me.Panel1.Controls.Add(Me.Button5)
         Me.Panel1.Controls.Add(Me.Button4)
         Me.Panel1.Controls.Add(Me.Button3)
-        Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.Button2)
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.bt_start)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel1.Location = New System.Drawing.Point(4, 4)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(979, 54)
         Me.Panel1.TabIndex = 1
@@ -79,7 +75,7 @@ Partial Class MainForm
         'Button4
         '
         Me.Button4.Location = New System.Drawing.Point(411, 11)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(100, 28)
         Me.Button4.TabIndex = 5
@@ -89,28 +85,17 @@ Partial Class MainForm
         'Button3
         '
         Me.Button3.Location = New System.Drawing.Point(519, 11)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(100, 28)
         Me.Button3.TabIndex = 4
         Me.Button3.Text = "Slower"
         Me.Button3.UseVisualStyleBackColor = True
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(915, 17)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(51, 17)
-        Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Label1"
-        Me.Label1.Visible = False
-        '
         'Button2
         '
         Me.Button2.Location = New System.Drawing.Point(245, 11)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(100, 28)
         Me.Button2.TabIndex = 2
@@ -120,7 +105,7 @@ Partial Class MainForm
         'Button1
         '
         Me.Button1.Location = New System.Drawing.Point(137, 11)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 28)
         Me.Button1.TabIndex = 1
@@ -130,7 +115,7 @@ Partial Class MainForm
         'bt_start
         '
         Me.bt_start.Location = New System.Drawing.Point(12, 11)
-        Me.bt_start.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.bt_start.Margin = New System.Windows.Forms.Padding(4)
         Me.bt_start.Name = "bt_start"
         Me.bt_start.Size = New System.Drawing.Size(100, 28)
         Me.bt_start.TabIndex = 0
@@ -142,78 +127,69 @@ Partial Class MainForm
         Me.SolarSystem.BackColor = System.Drawing.Color.Black
         Me.SolarSystem.Dock = System.Windows.Forms.DockStyle.Fill
         Me.SolarSystem.Location = New System.Drawing.Point(4, 66)
-        Me.SolarSystem.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.SolarSystem.Margin = New System.Windows.Forms.Padding(4)
         Me.SolarSystem.Name = "SolarSystem"
-        Planet1.Aphel = 0R
-        Planet1.Color = System.Drawing.Color.Yellow
-        Planet1.DisplayRadius = 20
-        Planet1.Eccentricity = 0R
-        Planet1.MajorAxis = 0R
-        Planet1.Perihel = 0R
-        Planet1.PlanetName = "Sun"
-        Planet2.Aphel = 0R
-        Planet2.Color = System.Drawing.Color.OldLace
-        Planet2.DisplayRadius = 5
-        Planet2.Eccentricity = 0.2056R
-        Planet2.MajorAxis = 0.3871R
-        Planet2.Perihel = 0.7R
-        Planet2.PlanetName = "Mercury"
-        Planet3.Aphel = 0R
-        Planet3.Color = System.Drawing.Color.NavajoWhite
-        Planet3.DisplayRadius = 7
-        Planet3.Eccentricity = 0.0068R
-        Planet3.MajorAxis = 0.723R
-        Planet3.Perihel = 0R
-        Planet3.PlanetName = "Venus"
-        Planet4.Aphel = 0R
-        Planet4.Color = System.Drawing.Color.DodgerBlue
-        Planet4.DisplayRadius = 10
-        Planet4.Eccentricity = 0.0167R
-        Planet4.MajorAxis = 1.0R
-        Planet4.Perihel = 0R
-        Planet4.PlanetName = "Earth"
-        Planet5.Aphel = 0R
-        Planet5.Color = System.Drawing.Color.Brown
-        Planet5.DisplayRadius = 10
-        Planet5.Eccentricity = 0.0935R
-        Planet5.MajorAxis = 1.524R
-        Planet5.Perihel = 0R
-        Planet5.PlanetName = "Mars"
-        Planet6.Aphel = 0R
-        Planet6.Color = System.Drawing.Color.Goldenrod
-        Planet6.DisplayRadius = 20
-        Planet6.Eccentricity = 0.0484R
-        Planet6.MajorAxis = 5.203R
-        Planet6.Perihel = 0R
-        Planet6.PlanetName = "Jupiter"
-        Planet7.Aphel = 0R
-        Planet7.Color = System.Drawing.Color.LemonChiffon
-        Planet7.DisplayRadius = 17
-        Planet7.Eccentricity = 0.05648R
-        Planet7.MajorAxis = 9.5826R
-        Planet7.Perihel = 0R
-        Planet7.PlanetName = "Saturn"
-        Me.SolarSystem.Planets.Add(Planet1)
-        Me.SolarSystem.Planets.Add(Planet2)
-        Me.SolarSystem.Planets.Add(Planet3)
-        Me.SolarSystem.Planets.Add(Planet4)
-        Me.SolarSystem.Planets.Add(Planet5)
-        Me.SolarSystem.Planets.Add(Planet6)
-        Me.SolarSystem.Planets.Add(Planet7)
+        Planet8.Aphel = 0R
+        Planet8.Color = System.Drawing.Color.Yellow
+        Planet8.DisplayRadius = 20
+        Planet8.Eccentricity = 0R
+        Planet8.MajorAxis = 0R
+        Planet8.Perihel = 0R
+        Planet8.PlanetName = "Sun"
+        Planet9.Aphel = 0R
+        Planet9.Color = System.Drawing.Color.OldLace
+        Planet9.DisplayRadius = 5
+        Planet9.Eccentricity = 0.2056R
+        Planet9.MajorAxis = 0.3871R
+        Planet9.Perihel = 0.7R
+        Planet9.PlanetName = "Mercury"
+        Planet10.Aphel = 0R
+        Planet10.Color = System.Drawing.Color.NavajoWhite
+        Planet10.DisplayRadius = 7
+        Planet10.Eccentricity = 0.0068R
+        Planet10.MajorAxis = 0.723R
+        Planet10.Perihel = 0R
+        Planet10.PlanetName = "Venus"
+        Planet11.Aphel = 0R
+        Planet11.Color = System.Drawing.Color.DodgerBlue
+        Planet11.DisplayRadius = 10
+        Planet11.Eccentricity = 0.0167R
+        Planet11.MajorAxis = 1.0R
+        Planet11.Perihel = 0R
+        Planet11.PlanetName = "Earth"
+        Planet12.Aphel = 0R
+        Planet12.Color = System.Drawing.Color.Brown
+        Planet12.DisplayRadius = 10
+        Planet12.Eccentricity = 0.0935R
+        Planet12.MajorAxis = 1.524R
+        Planet12.Perihel = 0R
+        Planet12.PlanetName = "Mars"
+        Planet13.Aphel = 0R
+        Planet13.Color = System.Drawing.Color.Goldenrod
+        Planet13.DisplayRadius = 20
+        Planet13.Eccentricity = 0.0484R
+        Planet13.MajorAxis = 5.203R
+        Planet13.Perihel = 0R
+        Planet13.PlanetName = "Jupiter"
+        Planet14.Aphel = 0R
+        Planet14.Color = System.Drawing.Color.LemonChiffon
+        Planet14.DisplayRadius = 17
+        Planet14.Eccentricity = 0.05648R
+        Planet14.MajorAxis = 9.5826R
+        Planet14.Perihel = 0R
+        Planet14.PlanetName = "Saturn"
+        Me.SolarSystem.Planets.Add(Planet8)
+        Me.SolarSystem.Planets.Add(Planet9)
+        Me.SolarSystem.Planets.Add(Planet10)
+        Me.SolarSystem.Planets.Add(Planet11)
+        Me.SolarSystem.Planets.Add(Planet12)
+        Me.SolarSystem.Planets.Add(Planet13)
+        Me.SolarSystem.Planets.Add(Planet14)
         Me.SolarSystem.Size = New System.Drawing.Size(979, 693)
         Me.SolarSystem.SolarSystem.Dimension = 0.000000001R
         Me.SolarSystem.SolarSystem.TimeFactor = 60000.0R
         Me.SolarSystem.TabIndex = 2
         Me.SolarSystem.Text = "CcSystem1"
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(780, 17)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 23)
-        Me.Button5.TabIndex = 6
-        Me.Button5.Text = "Button5"
-        Me.Button5.UseVisualStyleBackColor = True
         '
         'MainForm
         '
@@ -222,12 +198,11 @@ Partial Class MainForm
         Me.ClientSize = New System.Drawing.Size(987, 763)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.DoubleBuffered = True
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "MainForm"
         Me.Text = "Solar System"
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -237,8 +212,6 @@ Partial Class MainForm
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents SolarSystem As PlanetSim.CCSystem
     Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button5 As Button
 End Class
