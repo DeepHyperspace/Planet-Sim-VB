@@ -38,6 +38,7 @@ Partial Class MainForm
         Me.Button1 = New System.Windows.Forms.Button()
         Me.bt_start = New System.Windows.Forms.Button()
         Me.SolarSystem = New PlanetSim.CCSystem()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -46,20 +47,22 @@ Partial Class MainForm
         '
         Me.TableLayoutPanel1.ColumnCount = 1
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.Panel1, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.SolarSystem, 0, 1)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 2
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 62.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(740, 620)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(987, 763)
         Me.TableLayoutPanel1.TabIndex = 1
         '
         'Panel1
         '
+        Me.Panel1.Controls.Add(Me.Button5)
         Me.Panel1.Controls.Add(Me.Button4)
         Me.Panel1.Controls.Add(Me.Button3)
         Me.Panel1.Controls.Add(Me.Label1)
@@ -67,25 +70,28 @@ Partial Class MainForm
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.bt_start)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel1.Location = New System.Drawing.Point(3, 3)
+        Me.Panel1.Location = New System.Drawing.Point(4, 4)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(734, 44)
+        Me.Panel1.Size = New System.Drawing.Size(979, 54)
         Me.Panel1.TabIndex = 1
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(308, 9)
+        Me.Button4.Location = New System.Drawing.Point(411, 11)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.Size = New System.Drawing.Size(100, 28)
         Me.Button4.TabIndex = 5
         Me.Button4.Text = "Faster"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(389, 9)
+        Me.Button3.Location = New System.Drawing.Point(519, 11)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.Size = New System.Drawing.Size(100, 28)
         Me.Button3.TabIndex = 4
         Me.Button3.Text = "Slower"
         Me.Button3.UseVisualStyleBackColor = True
@@ -93,36 +99,40 @@ Partial Class MainForm
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(686, 14)
+        Me.Label1.Location = New System.Drawing.Point(915, 17)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.Size = New System.Drawing.Size(51, 17)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Label1"
         Me.Label1.Visible = False
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(184, 9)
+        Me.Button2.Location = New System.Drawing.Point(245, 11)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(100, 28)
         Me.Button2.TabIndex = 2
         Me.Button2.Text = "Zoom out"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(103, 9)
+        Me.Button1.Location = New System.Drawing.Point(137, 11)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(100, 28)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Zoom In"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'bt_start
         '
-        Me.bt_start.Location = New System.Drawing.Point(9, 9)
+        Me.bt_start.Location = New System.Drawing.Point(12, 11)
+        Me.bt_start.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.bt_start.Name = "bt_start"
-        Me.bt_start.Size = New System.Drawing.Size(75, 23)
+        Me.bt_start.Size = New System.Drawing.Size(100, 28)
         Me.bt_start.TabIndex = 0
         Me.bt_start.Text = "Start"
         Me.bt_start.UseVisualStyleBackColor = True
@@ -131,7 +141,8 @@ Partial Class MainForm
         '
         Me.SolarSystem.BackColor = System.Drawing.Color.Black
         Me.SolarSystem.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.SolarSystem.Location = New System.Drawing.Point(3, 53)
+        Me.SolarSystem.Location = New System.Drawing.Point(4, 66)
+        Me.SolarSystem.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.SolarSystem.Name = "SolarSystem"
         Planet1.Aphel = 0R
         Planet1.Color = System.Drawing.Color.Yellow
@@ -189,19 +200,29 @@ Partial Class MainForm
         Me.SolarSystem.Planets.Add(Planet5)
         Me.SolarSystem.Planets.Add(Planet6)
         Me.SolarSystem.Planets.Add(Planet7)
-        Me.SolarSystem.Size = New System.Drawing.Size(734, 564)
+        Me.SolarSystem.Size = New System.Drawing.Size(979, 693)
         Me.SolarSystem.SolarSystem.Dimension = 0.000000001R
         Me.SolarSystem.SolarSystem.TimeFactor = 60000.0R
         Me.SolarSystem.TabIndex = 2
         Me.SolarSystem.Text = "CcSystem1"
         '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(780, 17)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(75, 23)
+        Me.Button5.TabIndex = 6
+        Me.Button5.Text = "Button5"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
         'MainForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(740, 620)
+        Me.ClientSize = New System.Drawing.Size(987, 763)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.DoubleBuffered = True
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "MainForm"
         Me.Text = "Solar System"
         Me.TableLayoutPanel1.ResumeLayout(False)
@@ -219,4 +240,5 @@ Partial Class MainForm
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents Button5 As Button
 End Class
