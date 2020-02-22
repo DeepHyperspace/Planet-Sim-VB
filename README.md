@@ -1,5 +1,5 @@
 # Planet-Sim-VB
-A simple programming example using OEE techniques to simulate our solar system.
+A simple programming example using OOP techniques to simulate our solar system.
 
 ![Image of Planet-Sim](https://github.com/DeepHyperspace/Planet-Sim-VB/blob/master/Solar%20System.png)
 
