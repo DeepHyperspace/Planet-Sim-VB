@@ -13,4 +13,4 @@ You can add additional planets or other objects like asteroids with a high eccen
 
 All classes are located in the file SimObjects.vb
 
-Have fun.
+Have fun. :-)
